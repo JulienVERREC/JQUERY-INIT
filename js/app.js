@@ -5,4 +5,8 @@ $("#removeDiv").click(function(){
 $( "#setText" ).keyup(function(){
 var value = $(this).val();
 $("#needText").text(value);
-})
+});
+
+$("#setColor").click(function(){
+$("#changeColor").css('background','red');
+});
