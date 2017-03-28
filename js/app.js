@@ -1,7 +1,5 @@
-(function(){
-
-    // Todo
-
-})();
+$("#removeDiv").click(function(){
+  $("#remove").remove();
+});
 
 
